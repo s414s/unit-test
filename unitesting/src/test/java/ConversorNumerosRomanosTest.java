@@ -7,6 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class ConversorNumerosRomanosTest {
 
+    //Para correr los tests, ejecuta 'mvn test' en la linea de commando
+
     @Test
     public void testConvertToRoman() {
         assertEquals("I", new ConversorNumerosRomanos().convertirARomano(1));
